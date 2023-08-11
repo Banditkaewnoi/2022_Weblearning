@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakebook | เข้าสู่ระบบ</title>
+    <link rel="icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style-global.css"/>
+    <link rel="stylesheet" href="./assets/css/style-signin.css"/>
+</head>
+<body>
+    <section id="loading"><div class="screen"><div class="loadPad"><div class="spinning"><div class="ldsSpinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div></div></div></section>
+    <section id="content">
+        <div class="left">
+            <div class="logo">
+                <img src="./assets/img/logo-name.svg"/>
+            </div>
+            <div class="subtitle">
+                <p>Fakebook ช่วยคุณเชื่อมต่อและแชร์กัน</p>
+                <p>ผู้คนมากมายรอบตัวคุณ</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="pad">
+                <div class="row">
+                    <div class="error-text" id="errMsg" ></div>
+                </div>
+                <div class="row">
+                    <div class="inp">
+                        <input type="text" placeholder="ชื่อผู้ใช้" id="username">
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="inp">
+                        <input type="password" placeholder="รหัสผ่าน" id="password">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="btn" onclick="Authentication()">
+                        <div class="btn-text">เข้าสู่ระบบ</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="plain-text" >ลืมรหัสผ่านใช่หรือไม่</div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="btn2" onclick="goToSignUp()">
+                        <div class="btn-text">สร้างบัญชีใหม่</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="./assets/js/script-global.js"></script>
+    <script type="text/javascript" src="./assets/js/script-signin.js"></script>
+</body>
+</html>

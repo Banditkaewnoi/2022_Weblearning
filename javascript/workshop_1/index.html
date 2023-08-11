@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS WORKSHOP : 1 COUNTDOWN</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+<body>
+    <section id = "btn-sec">
+        <div class="btn-list">
+            <div class="btn" onclick="changeState('newyear')">
+                <div class="btn-text">
+                    วันปีใหม่
+                </div>
+            </div>
+            <div class="btn" onclick="changeState('birthday')">
+                <div class="btn-text">
+                    วันเกิด
+                </div>
+            </div>
+            <div class="btn" onclick="changeState('sonkarn')">
+                <div class="btn-text">
+                    วันปีใหม่ไทย
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="content" class="hny">
+        <div class="pad">
+            <div class="box-time">
+                <div class="num-time">
+                    <div class="num-time-text" id="text-day">365</div>
+                </div>
+                <div class="unit">
+                    <div class="unit-text">วัน</div>
+                </div>
+            </div>
+            <div class="box-time">
+                <div class="num-time">
+                    <div class="num-time-text" id="text-hour">23</div>
+                </div>
+                <div class="unit">
+                    <div class="unit-text">ชั่วโมง</div>
+                </div>
+            </div>
+            <div class="box-time">
+                <div class="num-time">
+                    <div class="num-time-text" id="text-minute">59</div>
+                </div>
+                <div class="unit">
+                    <div class="unit-text">นาที</div>
+                </div>
+            </div>
+            <div class="box-time">
+                <div class="num-time">
+                    <div class="num-time-text" id="text-second">59</div>
+                </div>
+                <div class="unit">
+                    <div class="unit-text">วินาที</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+</html>

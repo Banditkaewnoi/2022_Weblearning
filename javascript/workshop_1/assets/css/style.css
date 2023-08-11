@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap%27");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Prompt", sans-serif;
+}
+
+#btn-sec {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  bottom: 2vmax;
+  right: 2vmax;
+}
+#btn-sec .btn-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  gap: 1vmax;
+}
+#btn-sec .btn-list .btn {
+  padding: 0.5vmax;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+#btn-sec .btn-list .btn .btn-text {
+  font-size: 2vmax;
+}
+
+#content {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+#content .pad {
+  margin-top: 10vmax;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 3vmax;
+}
+#content .pad .box-time {
+  width: 7vmax;
+  height: 9vmax;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5vmax;
+}
+#content .pad .box-time .num-time {
+  text-align: center;
+}
+#content .pad .box-time .num-time .num-time-text {
+  color: #ffffff;
+  font-size: 3vmax;
+}
+#content .pad .box-time .unit {
+  text-align: center;
+}
+#content .pad .box-time .unit .unit-text {
+  color: #ffffff;
+  font-size: 1.5vmax;
+}
+
+.hny {
+  background-image: url("../img/bg-01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hbd {
+  background-image: url("../img/bg-02.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sk {
+  background-image: url("../img/90278.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*# sourceMappingURL=style.css.map */

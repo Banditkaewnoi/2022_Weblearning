@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#content{
+    width: 100%;
+    height: 90vh;
+    background-color: #fafafa;
+    padding-top: 10vh;
+    position: absolute;
+    z-index: 1;
+    .pad{
+        width: 60%;
+        height: 80vh;
+        margin-left: 20%;
+        overflow-y: scroll;
+        .card{
+            background-color: #ffce2c;
+            width: 90%;
+            height: 5vmax;
+            margin-left:5%;
+            margin-bottom: 2vmax;
+            border-radius: 10px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            cursor: pointer;
+
+            .row1{                
+                .el{
+                    text-align: center;
+                    font-size: 2.5vmax;
+                }
+            }
+            .row2{                
+                display: flex;
+                justify-content: space-around;
+                .el{                  
+                    text-align: center;
+                    font-size: 1.7vmax;
+                }
+            }
+        }
+    }
+}
+#popup{
+    display: none;    
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    .card{
+        background-color: #f1e6e6;
+        border-radius:10px;
+        width: 60%;
+        height: 60vh;
+        margin: 20vh auto;
+        position: relative;
+        padding-top:1vmax;
+        .closeBtn {
+            background-color: #ff0000;
+            width:3vmax;
+            height:3vmax;
+            border-radius: 100%;
+            position: absolute;
+            top:-2.5vmax;
+            right: -2.5vmax;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            .closeBtnText{
+                color: #ffffff;
+                font-size: 2.5vmax;
+            }
+        }
+        .title {
+            width: 100%;
+            font-size: 2.5vmax;
+            text-align: center;
+            
+        }
+        .desc{
+            
+            margin-top: 1vmax;
+            width: 100%;
+            height:60%;
+            overflow-y: scroll;
+            font-size: 1.7vmax;
+        }
+        .footer{
+            margin-top: 1vmax;
+            
+            display: flex;
+            justify-content:space-around;
+            
+            .el{
+                font-size: 1.7vmax;
+            }
+        }
+
+    }
+
+}

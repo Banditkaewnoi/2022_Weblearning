@@ -1,0 +1,155 @@
+#content {
+  background-color: #f0f2f5;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: none;
+}
+#content .pad-profile {
+  margin: 6vmax auto 2vmax;
+  width: 50%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(133, 135, 139, 0.5019607843);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmax;
+  padding: 3vmax;
+}
+#content .pad-profile .avatar {
+  width: 10vmax;
+  height: 10vmax;
+  border-radius: 100%;
+  overflow: hidden;
+}
+#content .pad-profile .avatar img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#content .pad-profile .name-account {
+  width: 100%;
+  text-align: center;
+}
+#content .pad-profile .name-account p {
+  font-size: 2.5vmax;
+}
+#content .card {
+  margin: 1vmax auto;
+  width: 50%;
+  min-height: 10vmax;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(133, 135, 139, 0.5019607843);
+  border-radius: 10px;
+}
+#content .card .header {
+  display: flex;
+  padding-top: 1vmax;
+  padding-bottom: 1vmax;
+  justify-content: space-between;
+  gap: 1vmax;
+  align-items: center;
+  width: 95%;
+  margin-left: 2.5%;
+}
+#content .card .header .avatar {
+  width: 3vmax;
+  height: 3vmax;
+  overflow: hidden;
+  border-radius: 100%;
+}
+#content .card .header .avatar img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#content .card .header .account {
+  width: 85%;
+}
+#content .card .header .account .account-name .account-name-text {
+  cursor: pointer;
+  font-size: 1.2vmax;
+  font-weight: bold;
+}
+#content .card .header .account .post-date .post-date-text {
+  font-size: 0.9vmax;
+}
+#content .card .header .del-post {
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #e4e6eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#content .card .content {
+  width: 100%;
+}
+#content .card .content .content-text {
+  width: 95%;
+  margin: 1vmax auto 1vmax;
+  text-align: left;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+#content .card-v {
+  margin: 1vmax auto;
+  width: 50%;
+  min-height: 10vmax;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(133, 135, 139, 0.5019607843);
+  border-radius: 10px;
+}
+#content .card-v .header {
+  display: flex;
+  padding-top: 1vmax;
+  padding-bottom: 1vmax;
+  padding-left: 2.5%;
+  justify-content: space-between;
+  gap: 1vmax;
+  align-items: center;
+  width: 95%;
+  margin-left: 2.5%;
+}
+#content .card-v .header .avatar {
+  width: 3vmax;
+  height: 3vmax;
+  overflow: hidden;
+  border-radius: 100%;
+}
+#content .card-v .header .avatar img {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#content .card-v .header .account {
+  width: 95%;
+}
+#content .card-v .header .account .account-name .account-name-text {
+  cursor: pointer;
+  font-size: 1.2vmax;
+  font-weight: bold;
+}
+#content .card-v .header .account .post-date .post-date-text {
+  font-size: 0.9vmax;
+}
+#content .card-v .content {
+  width: 100%;
+}
+#content .card-v .content .content-text {
+  width: 95%;
+  margin: 1vmax auto 1vmax;
+  text-align: left;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+/*# sourceMappingURL=style-profile.css.map */

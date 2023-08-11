@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สร้างบัญชี</title>
+    <link rel="stylesheet" href="./assets/css/style-sign-up.css"/>
+</head>
+<body>
+    <!-- //ช่องกรอก username id="inpUSN" type="text" -->
+    <!-- //ช่องกรอก password id="inpPWD" type="password"
+    //ช่องกรอก first name id="inpFNAME" type="text"
+    //ช่องกรอก last name id="inpLNAME" type="text"
+    //ปุ่ม สร้างบัญชี -->
+
+    <!-- <div style="width: 100%;text-align:center;">
+        <h1>สร้างบัญชี</h1>
+        <div>
+            <p style="text-align:center;color:#ff0000;" id="msgErr">username นี้ถูกใช้แล้ว</p>
+            <label>Username: </label>
+            <input id="inpUSN" type="text"/>
+        </div>
+        <div>
+            <label>Password: </label>
+            <input id="inpPWD" type="password"/>
+        </div>
+        <div>
+            <label>first name: </label>
+            <input id="inpFNAME" type="text"/>
+        </div>
+        <div>
+            <label>last name: </label>
+            <input id="inpLNAME" type="text"/>
+        </div>
+        <div>
+            <button onclick="CreateAccount()">Create</button> 
+        </div>
+    </div> -->
+
+
+    <div class="wrapper">
+        <div class="title">
+          Register Here
+        </div>
+        
+        
+        <div class="form">
+            <p style="text-align:center;color:#ff0000;" id="msgErr">username นี้ถูกใช้แล้ว</p>
+          <div class="input_field">
+            <input type="text" placeholder="Username" class="input" id="inpUSN">
+          </div>
+          <div class="input_field">
+            <input type="password" placeholder="Password" class="input" id="inpPWD">
+          </div>
+          <div class="input_field">
+            <input type="text" placeholder="First name" class="input" id="inpFNAME">
+          </div>
+          <div class="input_field">
+            <input type="text" placeholder="Last name" class="input" id="inpLNAME">
+          </div>
+          <div class="btn" onclick="CreateAccount()">
+            <a href="#" >Register</a>
+          </div>
+        </div>
+      </div>	
+
+
+
+
+    <script type="text/javascript" src="./assets/js/axios.min.js"></script>
+    <script type="text/javascript" src="./assets/js/script-sign-up.js"></script>
+</body>
+</html>

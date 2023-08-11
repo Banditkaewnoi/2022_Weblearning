@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  width: 100%;
+  height: 90vh;
+  background-color: #fafafa;
+  padding-top: 10vh;
+  position: absolute;
+  z-index: 1;
+}
+#content .pad {
+  width: 60%;
+  height: 80vh;
+  margin-left: 20%;
+  overflow-y: scroll;
+}
+#content .pad .card {
+  background-color: #ffce2c;
+  width: 90%;
+  height: 5vmax;
+  margin-left: 5%;
+  margin-bottom: 2vmax;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+#content .pad .card .row1 .el {
+  text-align: center;
+  font-size: 2.5vmax;
+}
+#content .pad .card .row2 {
+  display: flex;
+  justify-content: space-around;
+}
+#content .pad .card .row2 .el {
+  text-align: center;
+  font-size: 1.7vmax;
+}
+
+#popup {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 2;
+}
+#popup .card {
+  background-color: #f1e6e6;
+  border-radius: 10px;
+  width: 60%;
+  height: 60vh;
+  margin: 20vh auto;
+  position: relative;
+  padding-top: 1vmax;
+}
+#popup .card .closeBtn {
+  background-color: #ff0000;
+  width: 3vmax;
+  height: 3vmax;
+  border-radius: 100%;
+  position: absolute;
+  top: -2.5vmax;
+  right: -2.5vmax;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#popup .card .closeBtn .closeBtnText {
+  color: #ffffff;
+  font-size: 2.5vmax;
+}
+#popup .card .title {
+  width: 100%;
+  font-size: 2.5vmax;
+  text-align: center;
+}
+#popup .card .desc {
+  margin-top: 1vmax;
+  width: 100%;
+  height: 60%;
+  overflow-y: scroll;
+  font-size: 1.7vmax;
+}
+#popup .card .footer {
+  margin-top: 1vmax;
+  display: flex;
+  justify-content: space-around;
+}
+#popup .card .footer .el {
+  font-size: 1.7vmax;
+}
+
+/*# sourceMappingURL=style-index.css.map */

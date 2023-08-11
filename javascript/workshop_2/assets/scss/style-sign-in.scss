@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap%27");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  font-family: "Prompt", sans-serif;
+}
+
+body {
+  background: #0367d2;
+}
+
+.pad {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 60px 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+
+    .title {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 26px;
+        font-weight: bold;
+        color: #0367d2;
+      }
+    
+      .form {
+        .input_field {
+          position: relative;
+          margin-bottom: 10px;
+    
+          .input {
+            width: 100%;
+            padding: 12px;
+            padding-left: 30px;
+            border: none;
+            background: #eeeeee;
+            border-radius: 5px;
+          }
+        }
+    
+        .btn {
+          width: 80%;
+          margin: 20px auto 0;
+          background: #0606cc;
+          text-align: center;
+          padding: 12px;
+          border-radius: 25px;
+          cursor: pointer;
+    
+          a {
+            color: rgb(255, 255, 255);
+          }
+        }
+
+        .input_field i {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          font-size: 14px;
+          color: #1d2120;
+        }
+        .rgt{
+          text-align: center;
+          a {
+            color: #a3a3a3;
+          }
+        }
+        }
+}
